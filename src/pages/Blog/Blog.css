@@ -1,0 +1,32 @@
+.blog-wrap {
+    display: flex;
+    flex-direction: row; /* To stack elements vertically */
+    justify-content: center; /* Center horizontally */
+   align-items: center;
+}
+
+
+.blog-wrap img{
+    width:70%;
+    object-fit: cover;
+    border-radius: 50px;
+    align-self: center;
+}
+.blog-wrap span{
+    display: flex;
+    margin: 25px;
+  justify-content: center;
+
+}
+.blog-wrap-subcategory{
+    margin: 25px;
+    
+} 
+.blog-wrap header{
+    text-align: center;
+    font-size: 50px;
+    color:#0080ff;
+}
+.blog-wrap p{
+    color: rgb(31, 2, 31);
+}
